@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <form id="form" action="success.html">
+        <h1>Sign Up</h1>
+        <div class="form-control">
+          <label for="name">Name</label>
+        <input
+          type="text"
+          placeholder="Enter you name"
+          id="username"
+          required
+        /><br />
+          <span id="name_error"></span>
+          </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          id="email"
+          required
+        /><br />
+        <span id="email_error" style="color: red;"></span>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password"/><br />
+          
+          <span id="password_error" style="color: red;"></span>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset" class="btn2">Reset</button>
+      </form>
+    </div>
+    <script src="Index.js"></script>
+  </body>
+</html>
